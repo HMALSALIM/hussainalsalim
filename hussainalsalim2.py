@@ -55,7 +55,7 @@ ax = plt.axes()
 fig = plt.figure()
 ax = plt.axes()
 
-x = np.linspace(0, 10, 1000)
+x = np.linspace(0, 30, 1000)
 ax.plot(x, np.sin(x));
 
 
@@ -67,9 +67,9 @@ ax.plot(x, np.sin(x));
 fig = plt.figure()
 ax = plt.axes()
 
-x = np.linspace(0, 10, 1000)
+x = np.linspace(3, 20, 1000)
 ax.plot(x, np.sin(x))
-ax.set_title('Today Class')   # Add a title
+ax.set_title('hussain alsalim')   # Add a title
 ax.set_xlabel('Day label')          # Add x label
 ax.set_ylabel('Calss label');         # Add y label
 
@@ -86,9 +86,9 @@ ax = plt.axes()
 x = np.linspace(0, 10, 1000)
 ax.plot(x, np.sin(x))
 ax.plot(x, np.cos(x))
-ax.set_title('Multiple Lines');
-ax.set_xlabel('x label')          
-ax.set_ylabel('y label')         
+ax.set_title('hmalsalim');
+ax.set_xlabel('h label')          
+ax.set_ylabel('m label')         
 plt.show()
 
 
@@ -100,12 +100,12 @@ plt.show()
 fig = plt.figure()
 ax = plt.axes()
 
-x = np.linspace(0, 10, 1000)
+x = np.linspace(3, 40, 1000)
 ax.plot(x, np.sin(x), label = 'sin')
 ax.plot(x, np.cos(x), label = 'cos')
 ax.set_title('Multiple Lines');
-ax.set_xlabel('x label')          
-ax.set_ylabel('y label')
+ax.set_xlabel('h label')          
+ax.set_ylabel('m label')
 ax.legend()
 # ax.legend(loc=1)           
 plt.show()
@@ -119,7 +119,7 @@ plt.show()
 fig = plt.figure()
 ax = plt.axes()
 
-x = np.linspace(0, 10, 1000)
+x = np.linspace(0, 40, 1300)
 ax.plot(x, np.sin(x), label = 'sin', color = 'red')   # specify color by name
 ax.plot(x, np.cos(x), label = 'cos', color = 'g')    # short color code (rgbcmyk)
 ax.set_title('Multiple Lines');
@@ -137,14 +137,14 @@ fig = plt.figure()
 ax = plt.axes()
 # ax.grid(linestyle = '--')
 
-x = np.linspace(0, 10, 1000)
+x = np.linspace(4, 20, 1000)
 ax.plot(x, np.sin(x), label = 'sin', linestyle = 'dashed')   
 ax.plot(x, np.cos(x), label = 'cos', linestyle = 'dotted')
 ax.plot(x, np.sin(x+1), label = 'cos', linestyle = 'dashdot')
 ax.set_title('Multiple Lines');
-ax.set_xlabel('x label')          
-ax.set_ylabel('y label')
-ax.legend();
+ax.set_xlabel('hlabel')          
+ax.set_ylabel('m label')
+ax.legend();  
 
 
 # This is my task today 
